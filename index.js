@@ -12,9 +12,8 @@ app.use((req, res, next) => {
     next();
 });
 
-app.get("/", (req,res) => {
-    console.log("Hi");
-    res.send();
+app.get("/", (req,res) => {    
+    res.send("Hello node.js");
 });
 
 // app.post('/',(req,res) => {
